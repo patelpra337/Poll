@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AB3A896C2275F09C0031D938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A896B2275F09C0031D938 /* AppDelegate.swift */; };
-		AB3A896E2275F09C0031D938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A896D2275F09C0031D938 /* ViewController.swift */; };
 		AB3A89712275F09C0031D938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3A896F2275F09C0031D938 /* Main.storyboard */; };
 		AB3A89732275F09D0031D938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3A89722275F09D0031D938 /* Assets.xcassets */; };
 		AB3A89762275F09D0031D938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3A89742275F09D0031D938 /* LaunchScreen.storyboard */; };
+		AB3A897E2275F5510031D938 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A897D2275F5510031D938 /* ResultsTableViewController.swift */; };
+		AB3A89802275F5FA0031D938 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A897F2275F5FA0031D938 /* VotingViewController.swift */; };
+		AB3A89822275F6D50031D938 /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A89812275F6D50031D938 /* CombinedViewController.swift */; };
+		AB3A89842275F7FF0031D938 /* PollingTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A89832275F7FF0031D938 /* PollingTabBarViewController.swift */; };
+		AB3A89862275FA010031D938 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A89852275FA010031D938 /* Vote.swift */; };
+		AB3A89882275FC0F0031D938 /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A89872275FC0F0031D938 /* VoteController.swift */; };
+		AB3A898A2275FEEC0031D938 /* Voting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3A89892275FEEC0031D938 /* Voting.storyboard */; };
+		AB3A898C2275FFA30031D938 /* ResultsTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3A898B2275FFA30031D938 /* ResultsTable.storyboard */; };
+		AB3A898E2275FFC50031D938 /* Combined.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3A898D2275FFC50031D938 /* Combined.storyboard */; };
+		AB3A89902276028D0031D938 /* VoteControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A898F2276028D0031D938 /* VoteControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB3A89682275F09C0031D938 /* Poll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3A896B2275F09C0031D938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB3A896D2275F09C0031D938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB3A89702275F09C0031D938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB3A89722275F09D0031D938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB3A89752275F09D0031D938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB3A89772275F09D0031D938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3A897D2275F5510031D938 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		AB3A897F2275F5FA0031D938 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		AB3A89812275F6D50031D938 /* CombinedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
+		AB3A89832275F7FF0031D938 /* PollingTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingTabBarViewController.swift; sourceTree = "<group>"; };
+		AB3A89852275FA010031D938 /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		AB3A89872275FC0F0031D938 /* VoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
+		AB3A89892275FEEC0031D938 /* Voting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Voting.storyboard; sourceTree = "<group>"; };
+		AB3A898B2275FFA30031D938 /* ResultsTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultsTable.storyboard; sourceTree = "<group>"; };
+		AB3A898D2275FFC50031D938 /* Combined.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Combined.storyboard; sourceTree = "<group>"; };
+		AB3A898F2276028D0031D938 /* VoteControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,21 @@
 		AB3A896A2275F09C0031D938 /* Poll */ = {
 			isa = PBXGroup;
 			children = (
+				AB3A898D2275FFC50031D938 /* Combined.storyboard */,
+				AB3A898B2275FFA30031D938 /* ResultsTable.storyboard */,
+				AB3A89892275FEEC0031D938 /* Voting.storyboard */,
 				AB3A896B2275F09C0031D938 /* AppDelegate.swift */,
-				AB3A896D2275F09C0031D938 /* ViewController.swift */,
 				AB3A896F2275F09C0031D938 /* Main.storyboard */,
 				AB3A89722275F09D0031D938 /* Assets.xcassets */,
 				AB3A89742275F09D0031D938 /* LaunchScreen.storyboard */,
 				AB3A89772275F09D0031D938 /* Info.plist */,
+				AB3A897D2275F5510031D938 /* ResultsTableViewController.swift */,
+				AB3A897F2275F5FA0031D938 /* VotingViewController.swift */,
+				AB3A89812275F6D50031D938 /* CombinedViewController.swift */,
+				AB3A89832275F7FF0031D938 /* PollingTabBarViewController.swift */,
+				AB3A89852275FA010031D938 /* Vote.swift */,
+				AB3A89872275FC0F0031D938 /* VoteController.swift */,
+				AB3A898F2276028D0031D938 /* VoteControllerProtocol.swift */,
 			);
 			path = Poll;
 			sourceTree = "<group>";
@@ -124,7 +151,10 @@
 			files = (
 				AB3A89762275F09D0031D938 /* LaunchScreen.storyboard in Resources */,
 				AB3A89732275F09D0031D938 /* Assets.xcassets in Resources */,
+				AB3A898C2275FFA30031D938 /* ResultsTable.storyboard in Resources */,
 				AB3A89712275F09C0031D938 /* Main.storyboard in Resources */,
+				AB3A898A2275FEEC0031D938 /* Voting.storyboard in Resources */,
+				AB3A898E2275FFC50031D938 /* Combined.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3A896E2275F09C0031D938 /* ViewController.swift in Sources */,
+				AB3A897E2275F5510031D938 /* ResultsTableViewController.swift in Sources */,
+				AB3A89862275FA010031D938 /* Vote.swift in Sources */,
 				AB3A896C2275F09C0031D938 /* AppDelegate.swift in Sources */,
+				AB3A89902276028D0031D938 /* VoteControllerProtocol.swift in Sources */,
+				AB3A89842275F7FF0031D938 /* PollingTabBarViewController.swift in Sources */,
+				AB3A89882275FC0F0031D938 /* VoteController.swift in Sources */,
+				AB3A89802275F5FA0031D938 /* VotingViewController.swift in Sources */,
+				AB3A89822275F6D50031D938 /* CombinedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
