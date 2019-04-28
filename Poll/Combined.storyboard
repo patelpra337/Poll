@@ -17,6 +17,22 @@
                     <view key="view" contentMode="scaleToFill" id="82Y-ud-IVx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ja-WU-47X">
+                                <rect key="frame" x="0.0" y="34" width="414" height="404"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="dZl-cz-HPh" kind="embed" identifier="ToVotingScreen" id="l6d-2y-AbM"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r7V-DQ-ams">
+                                <rect key="frame" x="0.0" y="436" width="414" height="426"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="2bV-mD-u6k" kind="embed" identifier="ToResultsTableViewScreen" id="DNX-uO-jrV"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Jer-rb-KfB"/>
                     </view>
@@ -24,7 +40,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0a4-t8-7fC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="461" y="636"/>
+            <point key="canvasLocation" x="-146.37681159420291" y="367.63392857142856"/>
+        </scene>
+        <!--Voting-->
+        <scene sceneID="WIL-uE-wqS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Voting" id="dZl-cz-HPh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tYG-e9-EwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="135"/>
+        </scene>
+        <!--ResultsTable-->
+        <scene sceneID="cqd-Z0-fn4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ResultsTable" id="2bV-mD-u6k" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e20-I9-iGs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="667" y="481"/>
         </scene>
     </scenes>
 </document>
