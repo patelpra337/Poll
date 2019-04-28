@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ResultsTableViewController: UITableViewController {
+class ResultsTableViewController: UITableViewController, VoteControllerProtocol {
+    var voteController: VoteController?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
